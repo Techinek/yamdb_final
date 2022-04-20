@@ -22,3 +22,4 @@ REST API для сервиса YaMDb — база отзывов о различ
 ```docker-compose exec web python manage.py loaddata fixtures.json```
 
 **Автор**: [Кусков Андрей](https://github.com/Techinek).
+Ознакомиться с демо-версией можно здесь: [https://51.250.100.130/](https://51.250.100.130/)
