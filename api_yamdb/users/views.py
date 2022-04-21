@@ -66,6 +66,7 @@ class UserSignUpView(views.APIView):
 class TokenObtainView(views.APIView):
     permission_classes = (permissions.AllowAny,)
 
+
     def post(self, request):
         serializer = CodeConfirmSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
